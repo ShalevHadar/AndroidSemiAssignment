@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">בורגרי</string>
+    <string name="welcome_txt">ברוכים הבאים לבורגרי!</string>
+    <string name="send_name_btn">שלח</string>
+    <string name="hint">הקלד את שמך..</string>
+    <string name="what_would_you_like">בוא נבנה המבורגר!</string>
+    <string name="self_made">לחץ על הבורגר</string>
+    <string name="chicken_cheese_vegs">עוף גבינה ירקות</string>
+    <string name="beef_cheese_tomato">בשר גבינה עגבנייה</string>
+    <string name="tofu_egg_cheese">טופו ביצה גבינה</string>
+    <string name="choose_burger_type">תבחר בהמבורגר האהוב עלייך</string>
+    <string name="total_amount">סכום: 0</string>
+    <string name="finish_button">סיים הזמנה</string>
+    <string name="increase_amount" translatable="false"><b>+</b></string>
+    <string name="decrease_amount" translatable="false"><b>-</b></string>
+    <string name="continue_shopping">הוסף בורגר נוסף</string>
+    <string name="update_changes">עדכן שינויים</string>
+    <string name="loading_txt">טוען..</string>
+    <string name="language_has_changed">השפה שונתה</string>
+    <string name="hello">שלום</string>
+    <string name="first_burger">Shalev Burger</string>
+    <string name="second_burger">Danny Burger</string>
+    <string name="third_burger">Zahi Burger</string>
+    <string name="burger_mine">בורגר</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Burgery</string>
+    <string name="welcome_txt">Welcome to Burgery!</string>
+    <string name="send_name_btn">Send</string>
+    <string name="hint">Enter your name..</string>
+    <string name="what_would_you_like">Lets build your burger!</string>
+    <string name="self_made">Click on the burger</string>
+    <string name="chicken_cheese_vegs">Chicken Cheese Vegetables</string>
+    <string name="beef_cheese_tomato">Beef Cheese Tomato</string>
+    <string name="tofu_egg_cheese">Tofu Egg Cheese</string>
+    <string name="choose_burger_type">Choose your preferred burger type</string>
+    <string name="total_amount">Amount: 0</string>
+    <string name="finish_button">Finish order</string>
+    <string name="increase_amount" translatable="false"><b>+</b></string>
+    <string name="decrease_amount" translatable="false"><b>-</b></string>
+    <string name="continue_shopping">Add another item</string>
+    <string name="update_changes">update changes</string>
+    <string name="loading_txt">Loading...</string>
+    <string name="language_has_changed">Language has changed</string>
+    <string name="hello">Hello</string>
+    <string name="first_burger">Shalev Burger</string>
+    <string name="second_burger">Danny Burger</string>
+    <string name="third_burger">Zahi Burger</string>
+    <string name="burger_mine">burger</string>
+</resources>

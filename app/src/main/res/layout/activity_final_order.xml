@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FinalOrderActivity"
+    android:background="@drawable/background_image_for_home"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="430dp">
+
+            <ListView
+                android:id="@+id/burger_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/update_changes"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_design"
+            android:onClick="onClickUpdatePrice"
+            android:text="@string/update_changes"
+            android:textSize="30sp" />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="40px"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/finish_order_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/finish_order_button"
+            android:layout_margin="10dp"
+            android:text="@string/finish_button" />
+
+        <Button
+            android:id="@+id/add_more_item_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickAddMoreItem"
+            android:background="@drawable/add_another_item_button_design"
+            android:text="@string/continue_shopping" />
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/total_price_for_all_burgers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="@string/total_amount"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</LinearLayout>
